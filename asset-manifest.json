@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/chas-fend/static/css/main.63af5044.chunk.css",
+    "main.js": "/chas-fend/static/js/main.11148f3c.chunk.js",
+    "main.js.map": "/chas-fend/static/js/main.11148f3c.chunk.js.map",
+    "runtime-main.js": "/chas-fend/static/js/runtime-main.c6ab50c6.js",
+    "runtime-main.js.map": "/chas-fend/static/js/runtime-main.c6ab50c6.js.map",
+    "static/js/2.4a280c32.chunk.js": "/chas-fend/static/js/2.4a280c32.chunk.js",
+    "static/js/2.4a280c32.chunk.js.map": "/chas-fend/static/js/2.4a280c32.chunk.js.map",
+    "static/js/3.b7bab4cc.chunk.js": "/chas-fend/static/js/3.b7bab4cc.chunk.js",
+    "static/js/3.b7bab4cc.chunk.js.map": "/chas-fend/static/js/3.b7bab4cc.chunk.js.map",
+    "index.html": "/chas-fend/index.html",
+    "static/css/main.63af5044.chunk.css.map": "/chas-fend/static/css/main.63af5044.chunk.css.map",
+    "static/js/2.4a280c32.chunk.js.LICENSE.txt": "/chas-fend/static/js/2.4a280c32.chunk.js.LICENSE.txt",
+    "static/media/CHASLogo.2be718ea.png": "/chas-fend/static/media/CHASLogo.2be718ea.png",
+    "static/media/sprint-court.bf4c2ec8.jpeg": "/chas-fend/static/media/sprint-court.bf4c2ec8.jpeg",
+    "static/media/sprint-court1.46c6422f.jpeg": "/chas-fend/static/media/sprint-court1.46c6422f.jpeg",
+    "static/media/sprint-court2.bbcb1303.jpeg": "/chas-fend/static/media/sprint-court2.bbcb1303.jpeg",
+    "static/media/CallToAction.scss": "/chas-fend/static/media/sprint-court3.d643d632.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6ab50c6.js",
+    "static/js/2.4a280c32.chunk.js",
+    "static/css/main.63af5044.chunk.css",
+    "static/js/main.11148f3c.chunk.js"
+  ]
+}
