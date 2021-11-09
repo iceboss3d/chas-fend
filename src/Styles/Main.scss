@@ -1,0 +1,231 @@
+// Imports
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Poppins:wght@500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+// Colors
+$blue: #0070d7;
+$dark-blue: #003261;
+$orange: #f79503;
+$yellow: #ffd600;
+$white: #ffffff;
+$black: #1f2536;
+$dark-grey: #454c5e;
+$grey: #8f96a8;
+
+html {
+  width: 100vw;
+}
+
+// Buttons
+button {
+  height: 49px;
+  padding: 11px 39px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.button__active {
+  border-radius: 0;
+  background-color: $orange !important;
+  color: $white;
+}
+
+.button-primary {
+  background-color: $blue;
+  color: $white;
+  border: 1px solid $blue;
+}
+
+.button-primary:hover {
+  background: $dark-blue;
+  border: 1px solid $dark-blue;
+}
+
+.button-outline {
+  background-color: transparent;
+  color: $blue;
+  border: 1px solid $blue;
+}
+
+.button-outline:hover {
+  background: rgba(0, 111, 215, 0.14);
+}
+
+.button-accent {
+  color: $white;
+  background-color: $orange;
+  border: 1px solid $orange;
+}
+
+// Chip
+.chip {
+  width: auto;
+  padding: 4px 16px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.chip-outline {
+  border: 2px solid $black;
+  color: $black;
+}
+
+.chip-primary {
+  color: $white;
+  background-color: $blue;
+}
+
+.chip-accent {
+  color: $white;
+  background-color: $orange;
+}
+
+.chip-rounded {
+  border-radius: 25px;
+}
+
+// Links
+a {
+  color: $orange;
+  text-decoration: none;
+}
+
+// Text
+p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 22px;
+  color: $dark-grey;
+  margin: 0 0;
+}
+
+.text__light {
+  color: $grey;
+}
+
+.text__white {
+  color: $white;
+}
+
+.text__heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: $black;
+  margin: 0 0;
+}
+
+.text__heading__light {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: $white;
+  margin: 0 0;
+}
+
+.text__lead {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.text__title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  color: $black;
+  margin: 14px 0 !important;
+}
+
+.text__description {
+  font-size: 24px;
+  line-height: 1.5rem;
+}
+
+.text__feature__title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: $black;
+  margin-top: 25px;
+}
+
+.text__price {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  color: $blue;
+  margin: 10px 0;
+}
+
+.text__accent {
+  color: $orange;
+  font-size: 14px;
+}
+
+// Card
+.card {
+  border-radius: 7px;
+}
+
+.card-body {
+  position: relative;
+  background-color: $white;
+  padding: 17px 29px;
+}
+
+.card-img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0;
+}
+
+// Feature
+.feature {
+  padding-right: 15px;
+}
+
+.featured {
+  position: absolute;
+  top: -15px;
+  left: 0px;
+}
+
+// Top Bar
+.top-bar {
+  height: 51px;
+  width: 100%;
+  background-color: $black;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  padding: 11px 10px;
+  color: $grey;
+}
+
+.nav__link {
+  color: $blue;
+}
+
+// Logo
+.navbar-logo {
+  width: 134px;
+  height: 74px;
+}

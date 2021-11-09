@@ -1,0 +1,40 @@
+@import "../../Styles/Main.scss";
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: $blue;
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  top: 50%;
+}
+
+.carousel__indicator {
+  width: 24px !important;
+  height: 24px;
+  border: 3px solid $blue;
+  padding: 16px;
+  background: $blue;
+}
+
+.carousel__image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background-color: $blue;
+  opacity: 0.8;
+  padding: 1.5em;
+}
+
+@media (max-width: 425px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: $blue;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    top: 50%;
+  }
+}
