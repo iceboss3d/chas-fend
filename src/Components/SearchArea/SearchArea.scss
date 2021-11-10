@@ -1,15 +1,25 @@
 @import '../../Styles/Main.scss';
 
 .filter__form {
-  position: absolute;
-  top: -50px;
-  bottom: 0;
-  height: 150px;
   width: 100%;
   border: 1px solid $orange;
 }
 
-.search__area {
-  position: relative;
-  width: 100%;
+.search__item {
+  border: 1px solid $grey;
+  width: 25%;
+  height: 100px;  
+  padding: 20px 26px;
+  .form-control {
+    border: 0;
+    padding-left: 0;
+  }
+  .form-control:visited {
+    border: 0;
+  }
+}
+
+.search__item__button {
+  height: 100px;
+  width: 25%;
 }
